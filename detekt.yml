@@ -1,0 +1,69 @@
+comments:
+  AbsentOrWrongFileLicense:
+    active: true
+    licenseTemplateFile: detekt-license-header.txt
+    licenseTemplateIsRegex: false
+  DeprecatedBlockTag:
+    active: true
+  EndOfSentenceFormat:
+    active: true
+  KDocReferencesNonPublicProperty:
+    active: true
+  OutdatedDocumentation:
+    active: true
+  UndocumentedPublicClass:
+    active: true
+  UndocumentedPublicFunction:
+    active: true
+  UndocumentedPublicProperty:
+    active: true
+
+complexity:
+  CognitiveComplexMethod:
+    active: true
+  CyclomaticComplexMethod:
+    active: false
+
+exceptions:
+  NotImplementedDeclaration:
+    active: true
+
+formatting:
+  ChainMethodContinuation:
+    active: true
+  ClassName:
+    active: true
+  FunctionExpressionBody:
+    active: true
+  FunctionLiteral:
+    active: true
+  FunctionName:
+    active: true
+  FunctionTypeModifierSpacing:
+    active: true
+  MaximumLineLength:
+    active: false
+
+naming:
+  LambdaParameterNaming:
+    active: true
+
+potential-bugs:
+  CastNullableToNonNullableType:
+    active: true
+  CastToNullableType:
+    active: true
+  DontDowncastCollectionTypes:
+    active: true
+  UnnecessaryNotNullCheck:
+    active: true
+
+style:
+  AlsoCouldBeApply:
+    active: true
+  MaxLineLength:
+    active: true
+    excludePackageStatements: true
+    excludeImportStatements: true
+    excludeCommentStatements: true
+    excludeRawStrings: true
